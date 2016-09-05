@@ -1,0 +1,34 @@
+#reports {
+    width: 100%;
+}
+#reports td:first-child {
+    width: 50px;
+    text-align: center;
+}
+#legend {
+    width: 100%;
+    padding-bottom: 20px;
+}
+.legendHeader {
+    width: 100%;
+}
+.success {
+    background-color: lightgreen;
+}
+.failure {
+    background-color: red;
+}
+.suboptimal {
+    background-color: orange;
+}
+.stale {
+    background-color: lightgray;
+}
+.uncontrolled {
+    background-color: lightblue;
+}
+#statusMonitor {
+    min-height: 10px;
+    width: 100%;
+    border: 1px solid black;
+}
