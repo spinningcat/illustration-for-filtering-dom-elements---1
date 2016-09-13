@@ -93,6 +93,7 @@ Gri -> Özet olarak kaydın rengi gri ise, ciddi bir problemle karşı karşıya
 son request zamanı ile şu anki saatin karşılaştırılmasıyla, bu kolayca saptanabilir.
 
 - Benim kendi tasarımımda, tanım tablosunda 2 tane kolon vardır. Bunlardan biri SleepTime diğeri Timeout tur.
+
 - Kısaca bu 2 kolonun ne ifade ettiğini anlatmak gerekirse, uygulama multi thread çalışmaktadır. Bir thread çalıştıktan sonra bell bir süre uyku durumuna geçmektedir. SleepTime'daki değer bir thread'i,n ne süreyle uyku durumunda olacağını belirtmek içindir. Timeout ise, bir rquest yapıldığğında, eğer request yapmada bazı sorunlar yaşarsak, ne kadar bir süre serverden cevap bekleneceğini belirtmek içindir.
-- 
+ 
 - Şöyle bir hsaplama kullanılmaktadır Eğer o an ki zaman - son request zaman > (timeout + sleeptime) * 5 ise kayıt eskidir.
