@@ -2,7 +2,7 @@
 
 English Explanation
 
-Functionality of the program
+Functionality Overview
 
 It is really simple to work with that program I suppose. Just click the button and see what will happen. That filter the table according to the color of lines.
 
@@ -12,7 +12,7 @@ Working demo: https://jsfiddle.net/hellyeah/my3dd968/ -> it is just simple demo,
 
 (it will be hosted on actual domain soon.)
 
-Semantical Explanation
+Semantic Overview
 
 In this piece of code, we aim to filter table according to the color of the line. So when you click the button "any colour you want" you will see the only filtered records.
 
