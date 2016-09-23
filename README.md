@@ -8,7 +8,7 @@ It is really simple to work with that program I suppose. Just click the button a
 
 If you click “All” you shall see all records.
 
-Working demo: https://jsfiddle.net/hellyeah/my3dd968/ -> it is just simple demo, needs to be modified.
+[Working demo] (https://jsfiddle.net/hellyeah/my3dd968/) -> it is just simple demo, needs to be modified.
 
 (it will be hosted on actual domain soon.)
 
@@ -47,7 +47,7 @@ Programın çalışma mekanizması oldukça basittir. Sadece butona basın ve ne
 
 “All” butonuna basarsanız bütün kayıtlar gözükecektir.
 
-Çalışan Örnek: https://jsfiddle.net/hellyeah/my3dd968/ modifiye edilmesi gerekmektedir.
+[Çalışan Örnek] (https://jsfiddle.net/hellyeah/my3dd968/) modifiye edilmesi gerekmektedir.
 
 (Bir süre sonra, domain de hos edilecektir.)
 
