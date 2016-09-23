@@ -1,8 +1,8 @@
 # illustration-for-filtering-dom-elements---1
 
-English Explanation
+###**English Explanation**
 
-Functionality Overview
+#####*Functionality Overview*
 
 It is really simple to work with that program I suppose. Just click the button and see what will happen. That filter the table according to the color of lines.
 
@@ -37,11 +37,11 @@ Gray -> Concisely if the colour of record is grey. That means there is a serious
 In my design, there are two columns in definition table that are SleepTime and Timeout. The working environment of this app. is multithreaded. SleepTime is just a time approximately 1000ms for taking thread into “sleep state”. Whereas Timeout is a duration time that how to time the request last.
 
 The calculation for emphasising the record is out of date is mentioned below.
-Current Time - Last request time > (timeout + sleep time) * 5. The record is out of date.
+**__Current Time - Last request time > (timeout + sleep time) * 5--**. **The record is out of date.**
 
-Türkçe açıklaması - Turkish Explanation
+###**Türkçe açıklaması - Turkish Explanation**
 
-Fonksiyonel İşleyiş
+#####*Fonksiyonel İşleyiş*
 
 Programın çalışma mekanizması oldukça basittir. Sadece butona basın ve ne olacağını görün. Tabloyu satırın rengine göre filtreleyecektir.
 
