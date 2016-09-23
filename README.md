@@ -37,7 +37,7 @@ Gray -> Concisely if the colour of record is grey. That means there is a serious
 In my design, there are two columns in definition table that are SleepTime and Timeout. The working environment of this app. is multithreaded. SleepTime is just a time approximately 1000ms for taking thread into “sleep state”. Whereas Timeout is a duration time that how to time the request last.
 
 The calculation for emphasising the record is out of date is mentioned below.
-**__Current Time - Last request time > (timeout + sleep time) * 5__**. **The record is out of date.**
+*__Current Time - Last request time > (timeout + sleep time) * 5__*. **The record is out of date.**
 
 ###**Türkçe açıklaması - Turkish Explanation**
 
