@@ -6,7 +6,7 @@
 
 It is really simple to work with that program I suppose. Just click the button and see what will happen. That filter the table according to the color of lines.
 
-If you click “All” you shall see all records.
+####**If you click “All” you shall see all records.**
 
 [Working demo] (https://jsfiddle.net/hellyeah/my3dd968/) -> it is just simple demo, needs to be modified.
 
