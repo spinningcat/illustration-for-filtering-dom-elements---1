@@ -28,28 +28,3 @@ No | Color | Short Explanation | Case 1 | Case 2
 
 
 
-###**Türkçe açıklaması - Turkish Explanation**
-
-#####*Fonksiyonel İşleyiş*
-
-*Programın çalışma mekanizması oldukça basittir. Sadece butona basın ve ne olacağını görün. Tabloyu satırın rengine göre filtreleyecektir.*
-
-“All butonuna basarsanız bütün kayıtlar gözükecektir.*
-
-#**[Çalışan Örnek](https://jsfiddle.net/hellyeah/my3dd968/) modifiye edilmesi gerekmektedir.**
-
-*(Bir süre sonra, domain de hos edilecektir.)*
-
-#####*Anlamsal açıklama*
-
-*Bu kod parçasında ki amacımız, tablodaki kayıtları renklerine göre filtrelemetir. Bir butona bastığında, her hangibir renk olabilir tablo filtrelenecektir.*
-
-*Aslında bu tasarım, görüntüleme yazılımının bir parçasıdır. Her rengin kendine has bir anlamı olmaktadır. Özel olarak açıklamak gerekirse.*
-
-Numara | Renk | Kısa Açıklaması | Durum 1 | Durum 2
---- | --- | --- | --- | --- 
-1 | Kırmızı | Başarısız | Request tamamlanamassa ve biz gerekli cevabı alamazsak. | Definition table da timeout kolonu var. Eğer request timeout zamanı içerisinde tamamlanamassa, request başarısız olmuştur.
-2 | Turuncu  | Performas problemi | Son timedifference kolonundaki değerle, ondan önce değerlerin averajı alınaıp, yapılan karşılaştırma sonucu ortaya çıkan durumdur.  Time difference hesaplanması aşağıdaki gibidir. Request time (actual time) - Response Time (Actual Time) = Time Difference. | Bütün bilgileri definition table'da tutuyorum.. Bu veriler sayesinde, request yapabiliyorum. Her url bir threshhold deperine sahip. Eğer response time - request time threshholddan büyükse, bunun anlamı bir performans probleminin görüldüğüdür. Tasarımımda threshhold limit olarak belirlediğimiz bir süredir. Ve zamanı ölçmek daha doğru bir deyişle performans problemi var mı diye bakmak, ayrıca bu geri dönüş zamanının istediğimiz zaman aralığında kalıp kalmadığını anlamak için kullanılır.
-3 | Mavi | Aktif değil | Özet olarak "her hangibir kontrolün yapılmadığını anlatmaktadır." aktif değil durumu. Aktif değil durumunun mekanizması şu şekildedir. Definition table'ında inactive diye bir kolon bulunur. Bit değerleri alabilmektedir. Bu değeri 0 yaptığınızda kayıt kontrol edilmeyecektir. | ..
-4 | Gray | Out of date | Özet olarak eğer kaydın rengi gri ise, ciddi bir problemle karşı karşıyayız demektir. Çünkü kayıtlar eskidir. Bunu yaptamak için şu an ki zaman ile son request zamanını kıyaslamak yeterlidir. Benim tasarımımda 2 tane kolon vardır. Bunlardan biri timout diğeri ise Sleeptime dır. Bu uygulama multithread uygulamasıdır. Sleeptime threadin çalıştıktan sonra ne kadar süreliğine uyku durumunda kalacağını belirten bir süredir ve yaklaşık 1000ms dir. Timout ise bir zaman limitiir. Request'in en fazla ne kadar sürede gerçekleşmesi gerektiğini göstermektedir. Kaydın eski olduğunu anlamada kullanılan hesaplama yönetemi şu şekildedir.  Current Time - Last request time > (timeout + sleep time) * 5. | Bir başka çözüm ise, bir zaman limiti ayarlamaktır misalen 15 dakika olabilir. Eğer şu an ki zamanla, son request zamanının farkı 15 dakika ise "bu kayıt eskidir" diyebiliriz. 
-5 | Yeşil | Başarılı |Request tamamlandığı ve temiz bir response aldığımız zaman ortaya çıkan durumdur. Gerekli dönüş bilgilerini tabloda görebilirsiniz. | ... 
