@@ -1,7 +1,5 @@
 # illustration-for-filtering-dom-elements---1
 
-###**English Explanation**
-
 #####*Functionality Overview*
 
 *It is really simple to work with that program I suppose. Just click the button and see what will happen. That filter the table according to the color of lines.*
