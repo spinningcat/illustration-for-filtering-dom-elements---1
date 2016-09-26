@@ -1,7 +1,5 @@
 # illustration-for-filtering-dom-elements---1
 
-# illustration-for-filtering-dom-elements---1
-
 ###**English Explanation**
 
 #####*Functionality Overview*
