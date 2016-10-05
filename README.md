@@ -6,7 +6,7 @@
 
 *If you click “All” you shall see all records.*
 
-#**[Working demo](https://jsfiddle.net/hellyeah/my3dd968/) -> it is just simple demo, needs to be modified.**
+#**[Working demo](https://jsfiddle.net/hellyeah/my3dd968/embedded/result/) -> it is just simple demo, needs to be modified.**
 
 *(it will be hosted on actual domain soon.)*
 
