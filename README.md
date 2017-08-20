@@ -1,20 +1,20 @@
 # illustration-for-filtering-dom-elements---1
 
-#####*Functionality Overview*
+#####* Functionality Overview*
 
-*It is really simple to work with that program I suppose. Just click the button and see what will happen. That filter the table according to the color of lines.*
+* It is really simple to work with that program I suppose. Just click the button and see what will happen. That filter the table according to the color of lines.
 
-*If you click “All” you shall see all records.*
+* If you click “All” you shall see all records.
 
-#**[Working demo](https://jsfiddle.net/hellyeah/my3dd968/embedded/result/) -> it is just simple demo, needs to be modified.**
+# [Working demo](https://jsfiddle.net/hellyeah/my3dd968/embedded/result/) -> it is just simple demo, needs to be modified.
 
-*(it will be hosted on actual domain soon.)*
+(it will be hosted on actual domain soon.)
 
 #####*Semantic Overview*
 
-*In this piece of code, we aim to filter table according to the color of the line. So when you click the button “any colour you want” you will see the only filtered records.*
+* In this piece of code, we aim to filter table according to the color of the line. So when you click the button “any colour you want” you will see the only filtered records.
 
-*Actually, this development is part of monitoring software. Each colour has its own meaning. Let summarise it below.*
+* Actually, this development is part of monitoring software. Each colour has its own meaning. Let summarise it below.
 
 No | Color | Short Explanation | Case 1 | Case 2
 --- | --- | --- | --- | --- 
